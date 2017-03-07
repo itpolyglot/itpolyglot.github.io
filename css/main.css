@@ -1,18 +1,5 @@
-/*@font-face {*/
-    /*font-family: 'open_sanscondensed_light';*/
-    /*src: url('/fonts/head/OpenSans-CondLight-webfont.eot');*/
-    /*src: url('/fonts/head/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),*/
-    /*url('/fonts/head/OpenSans-CondLight-webfont.woff') format('woff'),*/
-    /*url('/fonts/head/OpenSans-CondLight-webfont.ttf') format('truetype'),*/
-    /*url('/fonts/head/OpenSans-CondLight-webfont.svg#open_sanscondensed_light') format('svg');*/
-    /*font-weight: normal;*/
-    /*font-style: normal;*/
 
-/*}*/
-
-
-
-
+/*HEADER!*/
 header {
     background-image: url("../img/header.jpg");
     opacity: 0.7;
@@ -23,7 +10,6 @@ header {
     border-bottom: solid rgb(55, 55, 55);
 }
 .title {
-    /*font-family: 'open_sanscondensed_light';*/
     text-decoration: none;
     color: rgb(11, 11, 11);
 }
@@ -45,6 +31,11 @@ header {
     }
 }
 
+
+/*!HEADER*/
+
+/*CONTENT*/
+
 .container {
     margin-top: 100px;
 }
@@ -54,17 +45,51 @@ header {
     margin-bottom: 50px;
 }
 
+/*!CONTENT*/
 
 
+/*FOOTER*/
+footer {
+    background-image: url("../img/header.jpg");
+    /*background-color: #d9f3ff;*/
+    /*height: 150px;*/
+    border-top: solid rgb(55, 55, 55);
 
+}
 
+.icons-share {
+    text-align: center;
+}
 
+.quote {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    margin-top: 15px;
+    text-align: center;
 
+}
 
+.link-share {
+    text-decoration: none;
+    color: rgb(11, 11, 11);
+    margin-left: 15px;
+    margin-right: 15px;
 
+}
+.link-github :hover {
+    color: midnightblue;
+    text-decoration: none;
+}
+.link-gmail:hover {
+    color: darkred;
+    text-decoration: none;
+}
+.link-share:focus {
+    color: rgb(55, 55, 55);
+    text-decoration: none;
+}
 
-
-
+/*!FOOTER*/
 
 
 
