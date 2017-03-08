@@ -35,9 +35,12 @@ header {
 /*!HEADER*/
 
 /*CONTENT*/
-
+.content {
+    background-image: url("../img/background.png");
+}
 .container {
-    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .col-lg-4 {
@@ -55,6 +58,9 @@ footer {
     /*height: 150px;*/
     border-top: solid rgb(55, 55, 55);
 
+}
+.footer-font {
+    font-family: 'Raleway', sans-serif;
 }
 
 .icons-share {
@@ -89,6 +95,7 @@ footer {
     text-decoration: none;
 }
 
+    
 /*!FOOTER*/
 
 
