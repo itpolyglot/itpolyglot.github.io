@@ -22,6 +22,31 @@ header {
     text-decoration: none;
 }
 
+.headerLogoLeft {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.headerLogoRight {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+
+/*MEDIA*/
+@media (max-width: 700px) {
+    .headerLogoRight {
+        display: none;
+    }
+    .headerLogoLeft {
+       display: none;
+    }
+
+}
 @media (max-width: 500px) {
     header {
         font-size: 4em;
@@ -30,7 +55,7 @@ header {
         padding-top: 30px;
     }
 }
-
+/*!MEDIA*/
 
 /*!HEADER*/
 
@@ -48,6 +73,94 @@ header {
     margin-bottom: 50px;
 }
 
+/*HOVER IMAGE*/
+
+@-webkit-keyframes hvr-pulse {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+@keyframes hvr-pulse {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+.hvr-pulse {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+.hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.contentLinks {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    font-family: 'Raleway', sans-serif;
+}
+
+.contentLinks:hover, .contentLinks:focus {
+    text-decoration: none;
+}
+
+/*DECORATION HOVER FOR EACH OTHER LANGUAGES*/
+.contentHTML:hover {
+    color: #E46425;
+}
+.contentCSS:hover {
+    color: #016FBA;
+}
+.contentJava:hover {
+    color: #5382A1;
+}
+.contentJS:hover {
+    color: rgb(181, 165, 77);
+}
+.contentRuby:hover {
+    color: #D84B31;
+}
+.contentPHP:hover {
+    color: #5F81BA;
+}
+.contentPython:hover {
+    color: #1E415E;
+}
+.contentCSharp:hover {
+    color: #71007B;
+}
+.contentSwift:hover {
+    color: #DD4F29;
+}
+.contentC:hover {
+    color: #924094;
+}
+.contentCplusplus:hover {
+    color: #006196;
+}
+.contentObjectiveC:hover {
+    color: #000000;
+}
+
+/********************************************/
 /*!CONTENT*/
 
 
@@ -86,16 +199,12 @@ footer {
     color: midnightblue;
     text-decoration: none;
 }
-.link-gmail:hover {
-    color: darkred;
-    text-decoration: none;
-}
 .link-share:focus {
     color: rgb(55, 55, 55);
     text-decoration: none;
 }
 
-    
+
 /*!FOOTER*/
 
 
